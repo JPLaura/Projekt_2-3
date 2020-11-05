@@ -1,5 +1,5 @@
 <template>
-<div class="mx-4  h-screen z-10">
+<div class="mx-4  h-screen ">
   <hooper class=" h-screen" :navButtons ="true">
     <slide class=" bg-yellow-300">
         <tr v-for=" c in codes" :key="c">
@@ -10,6 +10,8 @@
       <h3>Hello2</h3>
     </slide>
     <slide class="bg-orange-200">
+      tere
+      <Lessonbox/>
     </slide>
     </hooper>
     </div>
@@ -18,10 +20,12 @@
 <script>
 import { Hooper, Slide } from 'hooper';
 import 'hooper/dist/hooper.css';
+import Lessonbox from "./reusable/Lessonbox.vue"
 export default {
   components: {
     Hooper,
-    Slide
+    Slide,
+    Lessonbox
   },
   mounted() {
     this.getData();

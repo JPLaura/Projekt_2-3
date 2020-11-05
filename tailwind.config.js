@@ -135,6 +135,9 @@ module.exports = {
         900: '#702459',
       },
     },
+    height: {
+      'h-l1': '328px'
+    },
     spacing: {
       px: '1px',
       '0': '0',

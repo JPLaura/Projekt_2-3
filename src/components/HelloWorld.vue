@@ -6,6 +6,7 @@
 
 <script>
 import Content from "./Content"
+
 export default {
   components: {
     Content,
