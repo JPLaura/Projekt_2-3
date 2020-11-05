@@ -1,10 +1,9 @@
 <template>
-<div class="mx-4  h-screen ">
+
+<div class="mx-4  h-screen">
   <hooper class=" h-screen" :navButtons ="true">
     <slide class=" bg-yellow-300">
-        <tr v-for=" c in codes" :key="c">
-          <td>{{c}}</td>
-          </tr>
+          test
     </slide>
     <slide class="bg-green-400">
       <Weeknav/>
@@ -19,8 +18,10 @@
 <script>
 import { Hooper, Slide } from 'hooper';
 import 'hooper/dist/hooper.css';
+
 import Lessonbox from "./reusable/Lessonbox.vue"
 import Weeknav from "./reusable/Weeknav.vue"
+
 export default {
   components: {
     Hooper,
