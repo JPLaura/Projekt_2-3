@@ -136,7 +136,7 @@ module.exports = {
       },
     },
     height: {
-      'h-l1': '328px'
+      'h-l1': '20.5rm'
     },
     spacing: {
       px: '1px',

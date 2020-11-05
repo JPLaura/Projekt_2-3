@@ -10,7 +10,6 @@
       <h3>Hello2</h3>
     </slide>
     <slide class="bg-orange-200">
-      tere
       <Lessonbox/>
     </slide>
     </hooper>
