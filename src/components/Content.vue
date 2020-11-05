@@ -7,7 +7,7 @@
           </tr>
     </slide>
     <slide class="bg-green-400">
-      <h3>Hello2</h3>
+      <Weeknav/>
     </slide>
     <slide class="bg-orange-200">
       <Lessonbox/>
@@ -20,11 +20,13 @@
 import { Hooper, Slide } from 'hooper';
 import 'hooper/dist/hooper.css';
 import Lessonbox from "./reusable/Lessonbox.vue"
+import Weeknav from "./reusable/Weeknav.vue"
 export default {
   components: {
     Hooper,
     Slide,
-    Lessonbox
+    Lessonbox,
+    Weeknav
   },
   mounted() {
     this.getData();
