@@ -1,15 +1,15 @@
 <template>
+
 <div class="mx-4  h-screen">
   <hooper class=" h-screen" :navButtons ="true">
     <slide class=" bg-yellow-300">
           test
     </slide>
     <slide class="bg-green-400">
-      <h3>Hello2222</h3>
+      <Weeknav/>
     </slide>
     <slide class="bg-orange-200">
-      test
-      <Timenev />
+      <Lessonbox/>
     </slide>
     </hooper>
     </div>
@@ -18,12 +18,16 @@
 <script>
 import { Hooper, Slide } from 'hooper';
 import 'hooper/dist/hooper.css';
-import Timenev from "./reusable2/Timenev";
+
+import Lessonbox from "./reusable/Lessonbox.vue"
+import Weeknav from "./reusable/Weeknav.vue"
+
 export default {
   components: {
     Hooper,
     Slide,
-    Timenev
+    Lessonbox,
+    Weeknav
   },
   mounted() {
     this.getData();
