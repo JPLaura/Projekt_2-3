@@ -24,3 +24,6 @@ Rainis-Ross:
 Eete:
 
 Ralf:
+* Mulle sobib js roll
+* õppisin suhtlema
+* Sain selgeks kuidas 'Vuex' toimib.
