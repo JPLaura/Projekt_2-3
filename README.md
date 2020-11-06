@@ -1,27 +1,26 @@
-## Project setup
+[Figma link](https://www.figma.com/file/h82x1EzSc81Hk6LskoKLz2/Tunniplaan-wireframe-(Copy)?node-id=6%3A18)
 
-```
-npm install
-```
+## Küsimused ja vastused 
 
-### Compiles and hot-reloads for development
+* Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+* Üks pehme oskus, mida õppisin ja endas arendasin
+* Üks tehniline oskus, mida õppisin ja endas arendasin
 
-```
-npm run serve
-```
 
-### Compiles and minifies for production
+Joonas-Hendrik:
 
-```
-npm run build
-```
+Laura: 
 
-### Lints and fixes files
+Kaur:
 
-```
-npm run lint
-```
+Lelet:
 
-### Customize configuration
+Meeri-Ly:
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Mikk:
+
+Rainis-Ross:
+
+Eete:
+
+Ralf:
