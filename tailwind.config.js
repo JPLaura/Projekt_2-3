@@ -45,7 +45,7 @@ module.exports = {
         900: '#742a2a',
       },
       orange: {
-        50: '#F06520',
+        50: '#DF771C',
         100: '#fffaf0',
         200: '#feebc8',
         300: '#fbd38d',
@@ -90,7 +90,7 @@ module.exports = {
         900: '#234e52',
       },
       blue: {
-        50: '#2B517E',
+        50: '#1D5381',
         100: '#ebf8ff',
         200: '#bee3f8',
         300: '#90cdf4',
@@ -294,6 +294,7 @@ module.exports = {
       extrabold: '800',
       black: '900',
     },
+    // eslint-disable-next-line no-dupe-keys
     height: theme => ({
       auto: 'auto',
       ...theme('spacing'),

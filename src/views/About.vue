@@ -1,18 +1,25 @@
 <template>
   <div class="about">
-    <HelloWorld />
+    <div v-for="room in rooms" :key="room.roomsId">
+      <Test :room="room"/>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Test from '@/components/reusable/Test.vue'
+import {mapState} from "vuex";
 export default {
   name: 'About',
   components: {
-    HelloWorld
-  }
+    Test
+  },
+created() {
+    this.$store.dispatch('getRooms');
+  },
+   computed: mapState(['rooms']),
+
 }
 </script>
 

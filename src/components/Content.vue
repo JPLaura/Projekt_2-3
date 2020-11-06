@@ -1,15 +1,29 @@
 <template>
 
-<div class="mx-4  h-screen">
-  <hooper class=" h-screen" :navButtons ="true">
+<div class="mx-2  h-full">
+  <hooper class="h-full" :navButtons ="true">
     <slide class=" bg-yellow-300">
-          test
+          
     </slide>
     <slide class="bg-green-400">
-      <Weeknav/>
     </slide>
-    <slide class="bg-orange-200">
-      <Lessonbox/>
+    <slide class="bg-orange-200 flex-col flex justify-center items-center">
+      <div class="mx-8" v-for="lesson in getValid" :key="lesson.id">
+      <Lessonbox>
+        <template v-slot:time>
+          {{lesson.timeStart}} - {{lesson.timeEnd}}
+        </template>
+        <template v-slot:room>
+          {{lesson.rooms[0].roomCode}}
+        </template>
+        <template v-slot:lesson>
+          {{ lesson.nameEt }}
+        </template>
+        <template v-slot:teacher>
+          {{ lesson.teachers[0].name }}
+        </template>
+      </Lessonbox>
+       </div>
     </slide>
     </hooper>
     </div>
@@ -17,42 +31,24 @@
 
 <script>
 import { Hooper, Slide } from 'hooper';
+import { mapGetters } from 'vuex'
 import 'hooper/dist/hooper.css';
 
 import Lessonbox from "./reusable/Lessonbox.vue"
-import Weeknav from "./reusable/Weeknav.vue"
+
 
 export default {
   components: {
     Hooper,
     Slide,
     Lessonbox,
-    Weeknav
   },
-  mounted() {
-    this.getData();
-    console.log(this.codes)
+  created() {
+    this.$store.dispatch('getLessons');
   },
-  data: () => ({
-    codes: [],
-  }),
-  methods: {
-     async getData(){
-      try {
-        const api = 'https://tahvel.edu.ee/hois_back/timetables/group/38/432?fbclid=IwAR3EsUV0GpdyImxKCMrlpezjKu2Z9buy3MrkBzBUGQhFXDliwsCWf3yVoEY'
-        this.axios.get(api).then((response) => {
-          for(var d in response.data) {
-            this.codes.push(response.data[d].groupCode)
-          }
-          })
-      } catch(err){
-        console.log(err)
-      }
-
-      }
-
-            
-  }
+   computed: mapGetters(['getValid']),
+    
+  
 }
 </script>
 

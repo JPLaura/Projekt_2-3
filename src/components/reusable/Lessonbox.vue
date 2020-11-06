@@ -1,10 +1,16 @@
 
 <template>
-    <div class="bg-orange-50 h-24 w-64 border-solid border-4 border-black rounded-lg">
-        <h5 class="text-black text-2xl float-left pl-4 font-bold">08.30-10.00</h5>
-        <div class="text-black text-2xl float-right pr-4 font-bold">K206</div>
-        <div class="text-black text-base pl-4 font-bold">Matemaatika</div>
-        <div class="text-black text-base pl-4 font-normal">Karin Saare</div>
+    <div id="box" class="bg-gray-100 h-24 border-solid border-2 mb-2 border-black rounded-lg">
+        <div class="h-1/2">
+        <h5 class="text-black text-2xl float-left pl-4 font-bold"><slot name="time"></slot></h5>
+        <div class="text-black text-2xl float-right pr-4 font-bold"><slot name="room"></slot></div>
+
+        </div>
+        <div class="h-1/2 w-full flex flex-col">
+        <h3 class="text-black text-base pl-4 font-bold"><slot name="lesson"></slot></h3>
+        <div class="text-black text-base pl-4 font-normal"><slot name="teacher"></slot></div>
+
+        </div>
     </div>
 </template>
 
@@ -15,5 +21,8 @@ export default {
 </script>
 
 <style>
+#box {
+    width: 328px;
+}
 
 </style>
