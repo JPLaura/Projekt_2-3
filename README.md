@@ -20,20 +20,23 @@ Kaur:
   * Ma sain rohkem tead htmli kohta ja kuidas seda kirjutada.
 
 Lelet:
-1. pigem oleks tahtnud koodi kirjutada
-2. juhtmete ühendamise julgus
-3. tehniliselt ei õnnestunud sel korral areneda, aga see-eest vaimselt, mis on ju hulka olulisem! :)
+  1. pigem oleks tahtnud koodi kirjutada
+  2. juhtmete ühendamise julgus
+  3. tehniliselt ei õnnestunud sel korral areneda, aga see-eest vaimselt, mis on ju hulka olulisem! :)
 
 Meeri-Ly:
 
 Mikk:
 
 Rainis-Ross:
-1.Muud ülesanded oleksid olnud natuke kergemad aga ma olin rahul oma ülesandega.
-2.Oskan grupis paremini suhelda
-3.Kuigi ma ei oska väga hästi vued ja javascripti,ma tunnen neid ntuke paremini
+  1.Muud ülesanded oleksid olnud natuke kergemad aga ma olin rahul oma ülesandega.
+  2.Oskan grupis paremini suhelda
+  3.Kuigi ma ei oska väga hästi vued ja javascripti,ma tunnen neid ntuke paremini
 
 
 Eete:
 
 Ralf:
+  * Mulle sobib js roll
+  * õppisin suhtlema
+  * Sain selgeks kuidas 'Vuex' toimib.
