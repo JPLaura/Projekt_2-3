@@ -14,6 +14,9 @@ Laura:
 Kaur:
 
 Lelet:
+1. pigem oleks tahtnud koodi kirjutada
+2. juhtmete ühendamise julgus
+3. tehniliselt ei õnnestunud sel korral areneda, aga see-eest vaimselt, mis on ju hulka olulisem! :)
 
 Meeri-Ly:
 
