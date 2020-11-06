@@ -10,8 +10,14 @@
 Joonas-Hendrik:
 
 Laura: 
+  * Olin rahul enda rolliga gtml/css -i rühmas. Oleksin tahtnud veidi rohkem aidata figmaga.
+  * Õppisin meeskonnaga paremini suhtlema ning aitama kaasa meeskonna motiveerimisega.
+  * Sain juurde teadmisi vue ja tailwindi kasutamisest.
 
 Kaur:
+  * Ma ei oleks tahtnud saada mingit muud ülesannet.
+  * Ma sain paremaks tiimi töös.
+  * Ma sain rohkem tead htmli kohta ja kuidas seda kirjutada.
 
 Lelet:
 1. pigem oleks tahtnud koodi kirjutada
