@@ -12,6 +12,9 @@ Joonas-Hendrik:
 Laura: 
 
 Kaur:
+* Ma ei oleks tahtnud saada mingit muud ülesannet.
+* Ma sain paremaks tiimi töös.
+* Ma sain rohkem tead htmli kohta ja kuidas seda kirjutada.
 
 Lelet:
 
@@ -24,6 +27,3 @@ Rainis-Ross:
 Eete:
 
 Ralf:
-* Mulle sobib js roll
-* õppisin suhtlema
-* Sain selgeks kuidas 'Vuex' toimib.
